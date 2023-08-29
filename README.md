@@ -1,4 +1,4 @@
-# system-design-ideas
+# System Design
 
 This repo contains different design paradigms and LLDs for solving popular problems.
 
@@ -7,5 +7,5 @@ This repo contains different design paradigms and LLDs for solving popular probl
 
 
 
-# List of Frequently asked questions:
+## List of Frequently asked questions:
 Interview bit has curated a list of questions both for freshers and experienced professionals. Check the [link](https://www.interviewbit.com/system-design-interview-questions/).
