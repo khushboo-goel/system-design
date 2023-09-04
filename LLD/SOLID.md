@@ -14,7 +14,8 @@ Example: In a class, if there more than one function that can change the behavio
 Splitting those functions into separate classes.
 
 Example: 
-```class Marker {
+```
+class Marker {
     ....
     ....
 }
@@ -35,16 +36,19 @@ class Invoice {
   void saveToDb() {
       // logic to save the DB
   }
-}```
+}
+```
 
 The above three functions should be split into seperate classes, using invoice as an object;
 
 eg:
-```class InvoicePrinter {
+```
+class InvoicePrinter {
     private Invoice invoice;
 
     void printInvoice() {
         // logic is written here
     }
-}```
+}
+```
 
