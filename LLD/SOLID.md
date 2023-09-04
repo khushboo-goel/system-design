@@ -8,9 +8,11 @@ D : Dependency Inversion Principle
 
 ## Single Responsible Principle
 1. Each class should have only one responsibility / one reason to change.
+
 Example: In a class, if there more than one function that can change the behaviour of the class, it does not follow 'S' principle.
 
-2. How to adapt S principle while designing ?
+3. How to adapt S principle while designing?
+
 Splitting those functions into separate classes.
 
 Example: 
