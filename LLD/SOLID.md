@@ -1,10 +1,10 @@
 # S.O.L.I.D Principles of OOPs
 
-S : Single Responsible Principle
-O : Open / Closed Principle
-L : Liskov Substitution Principle
-I : Interface Segmented Principle
-D : Dependency Inversion Principle
+S : Single Responsible Principle  
+O : Open / Closed Principle  
+L : Liskov Substitution Principle  
+I : Interface Segmented Principle  
+D : Dependency Inversion Principle  
 
 ## Single Responsible Principle
 1. Each class should have only one responsibility / one reason to change.
