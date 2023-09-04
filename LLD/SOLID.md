@@ -57,6 +57,10 @@ class InvoicePrinter {
     }
 }
 ```
+More example from my Coding experience:
+* Writing different functions to perform different operations in the code.
+* Different API handlers performing only one single task.
+
 Advantages:
 1. Easy to maintain
 2. Easy to read and understand
