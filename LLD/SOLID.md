@@ -66,11 +66,14 @@ Advantages:
 2. Easy to read and understand
 
 ## Open /Closed Principle
-1. The class should not be modified to make room for new features.
+1. The class should not be modified to make room for new features. You violate the principle if your classes are not designed to be extended in case new features arise.
 This essentially talks about creating `Interfaces` for the features that can be extended in future.
 
-Exaxmple `class Person can be extended to class Teacher and class Student. If you want to add non teaching staff, you need to extended the person class and not change anything else`.
+Example `class Person can be extended to class Teacher and class Student. If you want to add non teaching staff, you need to extended the person class and not change anything else`.
 
 Advantages:
 1. Reduced error while changing code.
 2. Easy to extend the faetures to multiple classes with similar features.
+
+## Liskov Substitution Principle
+
