@@ -76,4 +76,12 @@ Advantages:
 2. Easy to extend the faetures to multiple classes with similar features.
 
 ## Liskov Substitution Principle
+1. If you are extending class B from class A, then a function using object of class A as param should not break if object of class B is passed.
+This essentially means that the capabilities of base class should be there in child, and child can have more capabilities. Child class should not be dropping features / functions from the base class.
+
+## Interface Segmented Principle
+1. Interfaces should be designed as such that the classes extending the interface should not have to support unnecessary base class feature, that do not suit their own functionality.
+
+## Dependency Inversion Principle
+1. Classes should inherit objects not the concrete classes.
 
