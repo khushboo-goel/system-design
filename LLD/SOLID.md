@@ -1,9 +1,13 @@
 # S.O.L.I.D Principles of OOPs
 
 S : Single Responsible Principle  
+
 O : Open / Closed Principle  
+
 L : Liskov Substitution Principle  
+
 I : Interface Segmented Principle  
+
 D : Dependency Inversion Principle  
 
 ## Single Responsible Principle
@@ -53,4 +57,6 @@ class InvoicePrinter {
     }
 }
 ```
-
+Advantages:
+1. Easy to maintain
+2. Easy to read and understand
