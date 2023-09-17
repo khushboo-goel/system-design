@@ -29,8 +29,8 @@ Lets take a look with an example:
 ```
 
 4. Now the client will have to check types in their code and call different vehicles separately. In case we want to add more functionality, we need to ask user to update their code as well.
-   ```
-     int main() {
+```
+   int main() {
   	string type;
   	cin >> type
   
@@ -46,5 +46,31 @@ Lets take a look with an example:
   
   	newVehicle -> createVehicle(type);
   	return 0;
+   }
+```
+
+5. Factory design suggests that we encapsulate this vehicle selection from user and create a separate class in our code.
+```
+class vehicleFactory {
+	public:
+		static void createVehicleFactory(string type) {
+			vehicle* newVehicle;
+			if (type == "car") {
+				newVehicle = new Car();
+			} else if (type == "bike") {
+				newVehicle = new Bike();
+			}
+
+			newVehicle -> createVehicle(type);
+			return;
+		}
+}
+
+int main() {
+	string type;
+	cin >> type
+
+	vehicleFactory* vF = new vehicleFactory(type);
+	return 0;
 }
 ```
