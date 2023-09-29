@@ -5,7 +5,7 @@ This is essentially creating a class diagram of the feature. Different classes a
 ### Basics:
 1. Create a box with a stripe on top. Label it as className.
 2. Divide the rest of section into two parts, one for attributes and another for methods.
-3. + : public member, - : private member and # : protected member.
+3. `+` : public member, `-` : private member and `#` : protected member.
 4. For functions, mention the name, input params, their types and function's return type.
 5. For static members, underline the name.
 
