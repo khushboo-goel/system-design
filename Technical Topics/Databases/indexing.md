@@ -15,3 +15,11 @@ Indexes are also stored a a serialised table on the disk. They take much lesser 
 
 ### How does Index reduces query time ?
 When we have index (assume index in created on the field which you want to query), we will go through the index table first and find which rows corresponds to the query. Once we have that, we only need to find those rows and return them in query. This reduces the time by reading limited records (blocks) from the main database.
+
+
+## Indexing using B and B+ Trees
+MySQL, MongoDB stores data on disk serialised as the B+ Tree.
+
+### Intuition:
+1. Simplistic way to store data is to store in a file, row by row. Insertion, updation and deletion is O(n) (ordered by Primary Key).
+
