@@ -85,3 +85,5 @@ This essentially means that the capabilities of base class should be there in ch
 ## Dependency Inversion Principle
 1. Classes should inherit objects not the concrete classes.
 
+### Resources:
+1. https://www.youtube.com/watch?v=XI7zep97c-Y
