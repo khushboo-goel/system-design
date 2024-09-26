@@ -87,3 +87,4 @@ This essentially means that the capabilities of base class should be there in ch
 
 ### Resources:
 1. https://www.youtube.com/watch?v=XI7zep97c-Y
+2. https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
